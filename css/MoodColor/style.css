@@ -1,0 +1,19 @@
+input {
+    position: absolute;
+    left: 0;
+    top: 40%;
+    transform: translateY(-50%);
+    width: 100%;
+    border: none;
+    background: rgba(255, 255, 255, 0.75);
+    padding: 24px 22%;
+    box-sizing: border-box; /* 并排放置两个带边框的框 */
+    font-size: 48px;
+    font-family: "Helvetica Neue", Helvetica;
+    font-weight: bold;
+    outline: 0; /* outline （轮廓）是绘制于元素周围的一条线，位于边框边缘的外围，可起到突出元素的作用。 */
+}
+
+body {
+    transition: background 0.5s;
+}
